@@ -121,11 +121,8 @@ export default function ChatContainer() {
           >
             <h4>Username: {user}</h4>
             <strong>
-              Remember to Subscribe to{" "}
-              <a href='https://www.youtube.com/channel/UCmoQtgmJ2SHEAPCAR1Q8TBA'>
-                {" "}
-                My Channel
-              </a>
+
+              Members: Vansh, Vinay, Anuj, Pranav
             </strong>
             <p
               onClick={() => logout()}
