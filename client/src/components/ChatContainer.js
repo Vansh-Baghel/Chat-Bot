@@ -120,10 +120,7 @@ export default function ChatContainer() {
             }}
           >
             <h4>Username: {user}</h4>
-            <strong>
-
-              Members: Vansh, Vinay, Anuj, Pranav
-            </strong>
+            <strong>Members: Vansh, Vinay, Anuj, Pranav, Bharat</strong>
             <p
               onClick={() => logout()}
               style={{ color: "blue", cursor: "pointer" }}
@@ -143,7 +140,7 @@ export default function ChatContainer() {
         <small
           style={{ backgroundColor: "lightblue", padding: 5, borderRadius: 5 }}
         >
-          By Vansh, Vinay, Anuj, Pranav
+          By Vansh, Vinay, Anuj, Pranav, Bharat
         </small>
       </div>
     </div>
